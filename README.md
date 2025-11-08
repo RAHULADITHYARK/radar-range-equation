@@ -53,13 +53,13 @@ lambda = 0.03;
 sigma = 1;     
 
 Pt_vals = 0.1:0.1:10;   
-Gt_const = 35;           
+Gt_const = 37;           
 Pm_const = 1e-13;        
 
 Rmax_Pt = ((Pt_vals .* Gt_const.^2 .* lambda.^2 .* sigma) ./ ((4*%pi)^3 .* Pm_const)).^(1/4);
 
 Gt_vals = 1:1:50;        
-Pt_const = 2;            
+Pt_const =3;            
 Pm_const = 1e-13;
 
 Rmax_Gt = ((Pt_const .* Gt_vals.^2 .* lambda.^2 .* sigma) ./ ((4*%pi)^3 .* Pm_const)).^(1/4);
@@ -77,11 +77,13 @@ plot(Gt_vals, Rmax_Gt, 'g', 'LineWidth', 2);
 
 subplot(3,1,3);
 plot(Pm_vals, Rmax_Pm, 'b', 'LineWidth', 2);
+
  `````
 
 ## Output
 
-<img width="764" height="607" alt="image" src="https://github.com/user-attachments/assets/251652ef-dc94-448d-a6e2-d45def3e13cb" />
+<img width="610" height="460" alt="image" src="https://github.com/user-attachments/assets/543c81ba-9797-4e80-b37d-a40957d48338" />
+
 
 
 ## Manual Calculation
