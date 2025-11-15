@@ -87,8 +87,8 @@ plot(Pm_vals, Rmax_Pm, 'b', 'LineWidth', 2);
 
 
 ## Manual Calculation
+![WhatsApp Image 2025-11-15 at 13 32 13_c7fcbd93](https://github.com/user-attachments/assets/9b89c606-5c2c-447f-92e6-5298a798dc29)
 
-![WhatsApp Image 2025-11-08 at 13 09 35_88077c15](https://github.com/user-attachments/assets/9d887264-3a7e-4062-9dcb-d4d7e37f57cf)
 
 
 
